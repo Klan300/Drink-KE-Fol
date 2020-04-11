@@ -1,13 +1,13 @@
-coffee(decaffein)
-coffee(caffein)
+coffee(decaffein).
+coffee(caffein).
 
-syrup(chocolate)
-syrup(vanila)
-syrup(caramel)
+syrup(chocolate).
+syrup(vanila).
+syrup(caramel).
 
-milk(normalMilk)
-milk(lowFatMilk)
-milk(nonFatMilk)
+milk(normalMilk).
+milk(lowFatMilk).
+milk(nonFatMilk).
 milk(nonLactoseMilk).
 
 drink(latte_normalMilk).
