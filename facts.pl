@@ -124,3 +124,34 @@ Avoid_caffein(caffein_addict, caffein).
 Avoid_caffein(pregnant, caffein).
 Avoid_caffein(heart_disease,caffein).
 
+Has_intensity(latte_normalMilk, 1).
+Has_intensity(latte_lowFatMilk, 1).
+Has_intensity(latte_nonFatMilk, 1).
+Has_intensity(latte_nonLactoseMilk, 1).
+Has_intensity(latte_normalMilk_decaffein, 1).
+Has_intensity(latte_lowFatMilk_decaffein, 1).
+Has_intensity(latte_nonFatMilk_decaffein, 1).
+Has_intensity(latte_nonLactoseMilk_decaffein, 1).
+Has_intensity(cappuccino, 1).
+Has_intensity(cappuccino_decaffein, 1).
+Has_intensity(mocha_normalMilk, 1).
+Has_intensity(mocha_lowFatMilk, 1).
+Has_intensity(mocha_nonFatMilk, 1).
+Has_intensity(mocha_nonLactoseMilk, 1).
+Has_intensity(mocha_normalMilk_decaffein, 1).
+Has_intensity(mocha_lowFatMilk_decaffein, 1).
+Has_intensity(mocha_nonFatMilk_decaffein, 1).
+Has_intensity(mocha_nonLactoseMilk_decaffein ,1).
+Has_intensity(americano, 2).
+Has_intensity(americano_decaffein, 2).
+Has_intensity(esspresso, 3).
+Has_intensity(esspresso_decaffein, 3).
+Has_intensity(caramel_mac_normalMilk, 1).
+Has_intensity(caramel_mac_lowFatMilk, 1).
+Has_intensity(caramel_mac_nonFatMilk, 1).
+Has_intensity(caramel_mac_nonLactoseMilk, 1).
+Has_intensity(caramel_mac_normalMilk_decaffein, 1).
+Has_intensity(caramel_mac_lowFatMilk_decaffein, 1).
+Has_intensity(caramel_mac_nonFatMilk_decaffein, 1).
+Has_intensity(caramel_mac_nonLactoseMilk_decaffein, 1).
+Has_intensity(caramel_mac, 1).
