@@ -27,5 +27,6 @@ health_condition(diabetes).
 health_condition(pregnant).
 health_condition(heart_disease).
 health_condition(lactose_intoleranse).
+health_condition(caffein_addict).
 
 
