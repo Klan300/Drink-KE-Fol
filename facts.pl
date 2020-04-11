@@ -8,7 +8,7 @@ syrup(caramel)
 milk(normalMilk)
 milk(lowFatMilk)
 milk(nonFatMilk)
-milk(nonLactoseMilk)
+milk(nonLactoseMilk).
 
 drink(latte_normalMilk).
 drink(latte_lowFatMilk).
