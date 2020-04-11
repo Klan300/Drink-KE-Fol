@@ -19,17 +19,13 @@ drink(mocha).
 drink(americano).
 drink(esspresso).
 drinK(caramel_mac).
-intensity(1)
-intensity(2)
-intensity(3)
-health_condition(overweight)
-health_condition(diabetes)
-health_condition(pregnant)
-health_condition(heart_disease)
-health_condition(lactose_intoleranse)
-
-has_milk(latte_normalMilk,normalMilk)
-has_syrup(latte_normalMilk,vanila)
-
+intensity(1).
+intensity(2).
+intensity(3).
+health_condition(overweight).
+health_condition(diabetes).
+health_condition(pregnant).
+health_condition(heart_disease).
+health_condition(lactose_intoleranse).
 
 
