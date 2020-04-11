@@ -82,6 +82,31 @@ has_milk(caramel_mac_lowFatMilk_decaffein,lowFatMilk).
 has_milk(caramel_mac_nonFatMilk_decaffein,nonFatMilk).
 has_milk(caramel_mac_nonLactoseMilk_decaffein,nonLactoseMilk).
 
+has_syrup(latte_normalMilk,vanilla).
+has_syrup(latte_lowFatMilk,vanilla).
+has_syrup(latte_nonFatMilk,vanilla).
+has_syrup(latte_nonLactoseMilk,vanilla).
+has_syrup(latte_normalMilk_decaffein,vanilla).
+has_syrup(latte_lowFatMilk_decaffein,vanilla).
+has_syrup(latte_nonFatMilk_decaffein,vanilla).
+has_syrup(latte_nonLactoseMilk_decaffein,vanilla).
+has_syrup(mocha_normalMilk,chocolate).
+has_syrup(mocha_lowFatMilk,chocolate).
+has_syrup(mocha_nonFatMilk,chocolate).
+has_syrup(mocha_nonLactoseMilk,chocolate).
+has_syrup(mocha_normalMilk_decaffein,chocolate).
+has_syrup(mocha_lowFatMilk_decaffein,chocolate).
+has_syrup(mocha_nonFatMilk_decaffein,chocolate).
+has_syrup(mocha_nonLactoseMilk_decaffein,chocolate).
+has_syrup(caramel_mac_normalMilk,caramel).
+has_syrup(caramel_mac_lowFatMilk,caramel).
+has_syrup(caramel_mac_nonFatMilk,caramel).
+has_syrup(caramel_mac_nonLactoseMilk,caramel).
+has_syrup(caramel_mac_normalMilk_decaffein,caramel).
+has_syrup(caramel_mac_lowFatMilk_decaffein,caramel).
+has_syrup(caramel_mac_nonFatMilk_decaffein,caramel).
+has_syrup(caramel_mac_nonLactoseMilk_decaffein,caramel).
+
 Avoid_syrup(diabetes, vanilla).
 Avoid_syrup(diabetes, chocolate).
 Avoid_syrup(diabetes, caramel).
@@ -91,13 +116,11 @@ Avoid_syrup(overweight, caramel).
 Avoid_syrup(heart_disease, vanilla).
 Avoid_syrup(heart_disease, chocolate).
 Avoid_syrup(heart_disease, caramel).
-
 Avoid_milk(lactose_intoleranse, normalMilk).
 Avoid_milk(lactose_intoleranse, lowFatMilk).
 Avoid_milk(lactose_intoleranse, nonFatMilk).
 Avoid_milk(lactose_intoleranse, foamMilk).
 Avoid_milk(overweight, normalMilk).
-
 Avoid_caffein(caffein_addict, caffein).
 Avoid_caffein(pregnant, caffein).
 Avoid_caffein(heart_disease,caffein).
