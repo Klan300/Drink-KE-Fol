@@ -17,4 +17,11 @@ drinK(caramel_mac).
 intensity(1)
 intensity(2)
 intensity(3)
+health_condition(overweight)
+health_condition(diabetes)
+health_condition(pregnant)
+health_condition(heart_disease)
+health_condition(lactose_intoleranse)
+
+
 
