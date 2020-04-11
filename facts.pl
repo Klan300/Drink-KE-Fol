@@ -32,7 +32,6 @@ drink(mocha_nonLactoseMilk_decaffein).
 drink(americano).
 drink(americano_decaffein).
 drink(esspresso).
-
 drink(esspresso_decaffein).
 drink(caramel_mac_normalMilk).
 drink(caramel_mac_lowFatMilk).
