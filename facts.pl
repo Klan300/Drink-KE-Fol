@@ -28,5 +28,8 @@ health_condition(pregnant)
 health_condition(heart_disease)
 health_condition(lactose_intoleranse)
 
+has_milk(latte_normalMilk,normalMilk)
+has_syrup(latte_normalMilk,vanila)
+
 
 
