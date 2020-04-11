@@ -7,3 +7,9 @@ Milk(NormalMilk)
 Milk(LowFatMilk)
 Milk(NonFatMilk)
 Milk(NonLactoseMilk)
+drink(latte).
+drink(cappuccino).
+drink(mocha).
+drink(americano).
+drink(esspresso).
+drinK(caramel_mac).
