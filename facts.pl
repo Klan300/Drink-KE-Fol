@@ -1,16 +1,15 @@
+:- module(facts,[]).
+
 coffee(decaffein).
 coffee(caffein).
-
 syrup(chocolate).
 syrup(vanilla).
 syrup(caramel).
-
 milk(normalMilk).
 milk(lowFatMilk).
 milk(nonFatMilk).
 milk(nonLactoseMilk).
-milk(foamMilk)
-
+milk(foamMilk).
 drink(latte_normalMilk).
 drink(latte_lowFatMilk).
 drink(latte_nonFatMilk).
@@ -32,7 +31,6 @@ drink(mocha_nonLactoseMilk_decaffein).
 drink(americano).
 drink(americano_decaffein).
 drink(esspresso).
-
 drink(esspresso_decaffein).
 drink(caramel_mac_normalMilk).
 drink(caramel_mac_lowFatMilk).
@@ -43,18 +41,15 @@ drink(caramel_mac_lowFatMilk_decaffein).
 drink(caramel_mac_nonFatMilk_decaffein).
 drink(caramel_mac_nonLactoseMilk_decaffein).
 drinK(caramel_mac).
-
 intensity(1).
 intensity(2).
 intensity(3).
-
 health_condition(overweight).
 health_condition(diabetes).
 health_condition(pregnant).
 health_condition(heart_disease).
 health_condition(lactose_intoleranse).
 health_condition(caffein_addict).
-
 has_milk(latte_normalMilk,normalMilk).
 has_milk(latte_lowFatMilk,lowFatMilk).
 has_milk(latte_nonFatMilk,nonFatMilk).
@@ -81,24 +76,21 @@ has_milk(caramel_mac_normalMilk_decaffein,normalMilk).
 has_milk(caramel_mac_lowFatMilk_decaffein,lowFatMilk).
 has_milk(caramel_mac_nonFatMilk_decaffein,nonFatMilk).
 has_milk(caramel_mac_nonLactoseMilk_decaffein,nonLactoseMilk).
-
-Avoid_syrup(diabetes, vanilla).
-Avoid_syrup(diabetes, chocolate).
-Avoid_syrup(diabetes, caramel).
-Avoid_syrup(overweight, vanilla).
-Avoid_syrup(overweight, chocolate).
-Avoid_syrup(overweight, caramel).
-Avoid_syrup(heart_disease, vanilla).
-Avoid_syrup(heart_disease, chocolate).
-Avoid_syrup(heart_disease, caramel).
-
-Avoid_milk(lactose_intoleranse, normalMilk).
-Avoid_milk(lactose_intoleranse, lowFatMilk).
-Avoid_milk(lactose_intoleranse, nonFatMilk).
-Avoid_milk(lactose_intoleranse, foamMilk).
-Avoid_milk(overweight, normalMilk).
-
-Avoid_caffein(caffein_addict, caffein).
-Avoid_caffein(pregnant, caffein).
-Avoid_caffein(heart_disease,caffein).
-
+avoid_syrup(diabetes,vanilla).
+avoid_syrup(diabetes,chocolate).
+avoid_syrup(diabetes,caramel).
+avoid_syrup(overweight,vanilla).
+avoid_syrup(overweight,chocolate).
+avoid_syrup(overweight,caramel).
+avoid_syrup(heart_disease,vanilla).
+avoid_syrup(heart_disease,chocolate).
+avoid_syrup(heart_disease,caramel).
+avoid_milk(lactose_intoleranse,normalMilk).
+avoid_milk(lactose_intoleranse,lowFatMilk).
+avoid_milk(lactose_intoleranse,nonFatMilk).
+avoid_milk(lactose_intoleranse,foamMilk).
+avoid_milk(overweight,normalMilk).
+avoid_caffein(caffein_addict,caffein).
+avoid_caffein(pregnant,caffein).
+avoid_caffein(heart_disease,caffein).
+avoid_ingredient(X,Y,Z,A):- avoid_caffein(X,Y),avoid_milk(X,Z),avoid_syrup(X,A),health_condition(X).
