@@ -19,3 +19,7 @@ drink(mocha).
 drink(americano).
 drink(esspresso).
 drinK(caramel_mac).
+intensity(1)
+intensity(2)
+intensity(3)
+
