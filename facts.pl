@@ -78,7 +78,7 @@ has_milk(latte_nonFatMilk_decaffein,nonFatMilk).
 has_milk(latte_nonLactoseMilk_decaffein,nonLactoseMilk).
 has_milk(latte_soyMilk_decaffein,soyMilk).
 has_milk(cappuccino,foamMilk).
-has_milk(cappuccino_dacaffein,foamMilk).
+has_milk(cappuccino_decaffein,foamMilk).
 has_milk(mocha_normalMilk,normalMilk).
 has_milk(mocha_lowFatMilk,lowFatMilk).
 has_milk(mocha_nonFatMilk,nonFatMilk).
@@ -125,7 +125,7 @@ has_syrup(mocha_nonFatMilk_decaffein,chocolate).
 has_syrup(mocha_nonLactoseMilk_decaffein,chocolate).
 has_syrup(mocha_soyMilk_decaffein,chocolate).
 has_syrup(cappuccino,none).
-has_syrup(cappuccino_dacaffein,none).
+has_syrup(cappuccino_decaffein,none).
 has_syrup(americano,none).
 has_syrup(americano_decaffein,none).
 has_syrup(esspresso,none).
@@ -215,7 +215,7 @@ has_coffee(latte_nonFatMilk_decaffein,decaffein).
 has_coffee(latte_nonLactoseMilk_decaffein,decaffein).
 has_coffee(latte_soyMilk_decaffein,decaffein).
 has_coffee(cappuccino,caffein).
-has_coffee(cappuccino_dacaffein,decaffein).
+has_coffee(cappuccino_decaffein,decaffein).
 has_coffee(mocha_normalMilk,caffein).
 has_coffee(mocha_lowFatMilk,caffein).
 has_coffee(mocha_nonFatMilk,caffein).

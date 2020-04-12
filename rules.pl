@@ -22,7 +22,7 @@ suggest_coffee(DISEASE,COFFEE):-
     (facts: coffee(COFFEE),
     not(facts: avoid_caffein(DISEASE,COFFEE))).
 
-suggest_intensity(AGE,INTENSITY):-
+intensity_from_age(AGE,INTENSITY):-
     lte(AGE,20) -> 
         facts: intensity(INTENSITY),diff(INTENSITY,3);
     (gte(AGE,21),lte(AGE,50)) -> 
@@ -34,9 +34,16 @@ suggest_by_ingredients(DRINK,MILK,SYRUP,COFFEE):-
     facts: has_syrup(DRINK,SYRUP),
     facts: has_coffee(DRINK,COFFEE).
 
-suggest_by_disease(DISEASE,DRINK):-
+suggest_by_disease(DRINK,DISEASE):-
     suggest_milk(DISEASE,MILK),
     suggest_syrup(DISEASE,SYRUP),
     suggest_coffee(DISEASE,COFFEE),
     suggest_by_ingredients(DRINK,MILK,SYRUP,COFFEE).
 
+suggest_by_age(DRINK,AGE):-
+    intensity_from_age(AGE,INTENSITY),
+    facts: has_intensity(DRINK,INTENSITY).
+      
+reccommend_menu(DRINK,AGE,HEALTHCONDITION):-
+    suggest_by_age(DRINK,AGE),
+    suggest_by_disease(DRINK,HEALTHCONDITION).
