@@ -51,4 +51,4 @@ suggest_by_age(DRINK,AGE):-
       
 reccommend_menu(DRINK,AGE,HEALTHCONDITION):-
     suggest_by_age(DRINK,AGE),
-    suggest_by_disease(DRINK,HEALTHCONDITION).
+     suggest_by_disease(DRINK,HEALTHCONDITION).
