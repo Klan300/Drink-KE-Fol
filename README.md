@@ -25,7 +25,7 @@ To provide guidance on the subject of coffee drinks product that medically appro
 reccommend_menu(DRINK,AGE,HEALTHCONDITION)
 ```
 - The perfect drink sorted by age and health condition.
-- Ex. reccommend_menu(DRINK,35,overweight) find DRINK that has appropriate level of intensity for an overweight 35 year old.
+- Ex. reccommend_menu(DRINK,35,overweight) find DRINK that has appropriate level of intensity and ingredients for an overweight 35 year old.
 ```prolog
 ?- reccommend_menu(DRINK,35,overweight).
 DRINK = cappuccino ;
