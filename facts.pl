@@ -65,6 +65,7 @@ health_condition(lactose_intoleranse).
 health_condition(caffein_addict).
 health_condition(depression).
 health_condition(kidney_disease).
+health_condition(none)
 
 has_milk(latte_normalMilk,normalMilk).
 has_milk(latte_lowFatMilk,lowFatMilk).
@@ -200,3 +201,40 @@ has_intensity(caramel_mac_lowFatMilk_decaffein, 1).
 has_intensity(caramel_mac_nonFatMilk_decaffein, 1).
 has_intensity(caramel_mac_nonLactoseMilk_decaffein, 1).
 has_intensity(caramel_mac_soyMilk_decaffein, 1).
+
+has_coffee(latte_normalMilk,caffein).
+has_coffee(latte_lowFatMilk,caffein).
+has_coffee(latte_nonFatMilk,caffein).
+has_coffee(latte_nonLactoseMilk,caffein).
+has_coffee(latte_soyMilk,caffein).
+has_coffee(latte_normalMilk_decaffein,decaffein).
+has_coffee(latte_lowFatMilk_decaffein,decaffein).
+has_coffee(latte_nonFatMilk_decaffein,decaffein).
+has_coffee(latte_nonLactoseMilk_decaffein,decaffein).
+has_coffee(latte_soyMilk_decaffein,decaffein).
+has_coffee(cappuccino,caffein).
+has_coffee(cappuccino_dacaffein,decaffein).
+has_coffee(mocha_normalMilk,caffein).
+has_coffee(mocha_lowFatMilk,caffein).
+has_coffee(mocha_nonFatMilk,caffein).
+has_coffee(mocha_nonLactoseMilk,caffein).
+has_coffee(mocha_soyMilk,caffein).
+has_coffee(mocha_normalMilk_decaffein,decaffein).
+has_coffee(mocha_lowFatMilk_decaffein,decaffein).
+has_coffee(mocha_nonFatMilk_decaffein,decaffein).
+has_coffee(mocha_nonLactoseMilk_decaffein,decaffein).
+has_coffee(mocha_soyMilk_decaffein,decaffein).
+has_coffee(americano,caffein).
+has_coffee(americano_decaffein,decaffein).
+has_coffee(esspresso,caffein).
+has_coffee(esspresso_decaffein,decaffein).
+has_coffee(caramel_mac_normalMilk,caffein).
+has_coffee(caramel_mac_lowFatMilk,caffein).
+has_coffee(caramel_mac_nonFatMilk,caffein).
+has_coffee(caramel_mac_nonLactoseMilk,caffein).
+has_coffee(caramel_mac_soyMilk,caffein).
+has_coffee(caramel_mac_normalMilk_decaffein,decaffein).
+has_coffee(caramel_mac_lowFatMilk_decaffein,decaffein).
+has_coffee(caramel_mac_nonFatMilk_decaffein,decaffein).
+has_coffee(caramel_mac_nonLactoseMilk_decaffein,decaffein).
+has_coffee(caramel_mac_soyMilk_decaffein,decaffein).
