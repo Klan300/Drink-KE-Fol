@@ -29,14 +29,14 @@ suggest_intensity(AGE,INTENSITY):-
         facts: intensity(INTENSITY);
     facts: intensity(INTENSITY),diff(INTENSITY,3). 
 
-suggest_by_ingredients(DRINK,MILK,SYRUP):-
+suggest_by_ingredients(DRINK,MILK,SYRUP,COFFEE):-
     facts: has_milk(DRINK,MILK),
-    facts: has_syrup(DRINK,SYRUP).
+    facts: has_syrup(DRINK,SYRUP),
+    facts: has_coffee(DRINK,COFFEE).
 
 suggest_by_disease(DISEASE,DRINK):-
     suggest_milk(DISEASE,MILK),
     suggest_syrup(DISEASE,SYRUP),
-    facts: has_milk(DRINK,MILK),
-    facts: has_syrup(DRINK,SYRUP).
+    suggest_coffee(DISEASE,COFFEE),
+    suggest_by_ingredients(DRINK,MILK,SYRUP,COFFEE).
 
-    

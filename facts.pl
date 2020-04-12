@@ -14,7 +14,7 @@ milk(nonFatMilk).
 milk(nonLactoseMilk).
 milk(foamMilk).
 milk(soyMilk).
-milk(none)
+milk(none).
 
 drink(latte_normalMilk).
 drink(latte_lowFatMilk).
@@ -65,7 +65,7 @@ health_condition(lactose_intoleranse).
 health_condition(caffein_addict).
 health_condition(depression).
 health_condition(kidney_disease).
-health_condition(none)
+health_condition(none).
 
 has_milk(latte_normalMilk,normalMilk).
 has_milk(latte_lowFatMilk,lowFatMilk).
@@ -124,6 +124,8 @@ has_syrup(mocha_lowFatMilk_decaffein,chocolate).
 has_syrup(mocha_nonFatMilk_decaffein,chocolate).
 has_syrup(mocha_nonLactoseMilk_decaffein,chocolate).
 has_syrup(mocha_soyMilk_decaffein,chocolate).
+has_syrup(cappuccino,none).
+has_syrup(cappuccino_dacaffein,none).
 has_syrup(americano,none).
 has_syrup(americano_decaffein,none).
 has_syrup(esspresso,none).
@@ -149,14 +151,15 @@ avoid_syrup(heart_disease, vanilla).
 avoid_syrup(heart_disease, chocolate).
 avoid_syrup(heart_disease, caramel).
 avoid_syrup(kidney_disease, chocolate).
+avoid_milk(heart_disease, normalMilk).
 avoid_milk(lactose_intoleranse, normalMilk).
 avoid_milk(lactose_intoleranse, lowFatMilk).
 avoid_milk(lactose_intoleranse, nonFatMilk).
 avoid_milk(lactose_intoleranse, foamMilk).
 avoid_milk(overweight, normalMilk).
 avoid_milk(kidney_disease,normalMilk).
-avoid_milk(kidney_disease,lowfatMilk).
-avoid_milk(kidney_disease,nonfatMilk).
+avoid_milk(kidney_disease,lowFatMilk).
+avoid_milk(kidney_disease,nonFatMilk).
 avoid_milk(kidney_disease,nonLactoseMilk).
 avoid_caffein(caffein_addict, caffein).
 avoid_caffein(pregnant, caffein).
