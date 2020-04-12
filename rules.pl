@@ -22,6 +22,11 @@ suggest_coffee(DISEASE,COFFEE):-
     (facts: coffee(COFFEE),
     not(facts: avoid_caffein(DISEASE,COFFEE))).
 
+ingredients_suggest_by_disease(DISEASE,MILK,SYRUP,COFFEE):-
+    suggest_milk(DISEASE,MILK),
+    suggest_syrup(DISEASE,SYRUP),
+    suggest_coffee(DISEASE,COFFEE).
+
 intensity_from_age(AGE,INTENSITY):-
     lte(AGE,20) -> 
         facts: intensity(INTENSITY),diff(INTENSITY,3);
