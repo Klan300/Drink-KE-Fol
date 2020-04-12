@@ -1,3 +1,5 @@
+:- module(facts,[]).
+
 coffee(decaffein).
 coffee(caffein).
 
@@ -41,7 +43,6 @@ drink(caramel_mac_normalMilk_decaffein).
 drink(caramel_mac_lowFatMilk_decaffein).
 drink(caramel_mac_nonFatMilk_decaffein).
 drink(caramel_mac_nonLactoseMilk_decaffein).
-drinK(caramel_mac).
 
 intensity(1).
 intensity(2).
@@ -80,7 +81,7 @@ has_milk(caramel_mac_normalMilk_decaffein,normalMilk).
 has_milk(caramel_mac_lowFatMilk_decaffein,lowFatMilk).
 has_milk(caramel_mac_nonFatMilk_decaffein,nonFatMilk).
 has_milk(caramel_mac_nonLactoseMilk_decaffein,nonLactoseMilk).
-
+ 
 has_syrup(latte_normalMilk,vanilla).
 has_syrup(latte_lowFatMilk,vanilla).
 has_syrup(latte_nonFatMilk,vanilla).
@@ -105,6 +106,8 @@ has_syrup(caramel_mac_normalMilk_decaffein,caramel).
 has_syrup(caramel_mac_lowFatMilk_decaffein,caramel).
 has_syrup(caramel_mac_nonFatMilk_decaffein,caramel).
 has_syrup(caramel_mac_nonLactoseMilk_decaffein,caramel).
+
+has_coffee(latte_normalMilk, caffein).
 
 avoid_syrup(diabetes, vanilla).
 avoid_syrup(diabetes, chocolate).
