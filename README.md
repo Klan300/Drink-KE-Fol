@@ -36,6 +36,12 @@
 
 - Depression: caffeine can disrupt several important neurotransmitters 
 
+## Knowledge base
+
+[https://teeccino.com/building-optimal-health/health-conditions-aggravated-caffeine/]
+[https://www.healthline.com/nutrition/foods-to-avoid-with-kidney-disease]
+[https://www.healthline.com/health/childrens-health/experts-when-can-kids-drink-coffee#1]
+
 
 
 
