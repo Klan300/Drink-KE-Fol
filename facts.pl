@@ -6,7 +6,6 @@ coffee(caffein).
 syrup(chocolate).
 syrup(vanilla).
 syrup(caramel).
-syrup(none).
 
 milk(normalMilk).
 milk(lowFatMilk).
@@ -14,7 +13,6 @@ milk(nonFatMilk).
 milk(nonLactoseMilk).
 milk(foamMilk).
 milk(soyMilk).
-milk(none).
 
 drink(latte_normalMilk).
 drink(latte_lowFatMilk).
@@ -65,7 +63,6 @@ health_condition(lactose_intoleranse).
 health_condition(caffein_addict).
 health_condition(depression).
 health_condition(kidney_disease).
-health_condition(none).
 
 has_milk(latte_normalMilk,normalMilk).
 has_milk(latte_lowFatMilk,lowFatMilk).
@@ -89,10 +86,6 @@ has_milk(mocha_lowFatMilk_decaffein,lowFatMilk).
 has_milk(mocha_nonFatMilk_decaffein,nonFatMilk).
 has_milk(mocha_nonLactoseMilk_decaffein,nonLactoseMilk).
 has_milk(mocha_soyMilk_decaffein,soyMilk).
-has_milk(americano,none).
-has_milk(americano_decaffein,none).
-has_milk(esspresso,none).
-has_milk(esspresso_decaffein,none).
 has_milk(caramel_mac_normalMilk,normalMilk).
 has_milk(caramel_mac_lowFatMilk,lowFatMilk).
 has_milk(caramel_mac_nonFatMilk,nonFatMilk).
@@ -124,12 +117,6 @@ has_syrup(mocha_lowFatMilk_decaffein,chocolate).
 has_syrup(mocha_nonFatMilk_decaffein,chocolate).
 has_syrup(mocha_nonLactoseMilk_decaffein,chocolate).
 has_syrup(mocha_soyMilk_decaffein,chocolate).
-has_syrup(cappuccino,none).
-has_syrup(cappuccino_decaffein,none).
-has_syrup(americano,none).
-has_syrup(americano_decaffein,none).
-has_syrup(esspresso,none).
-has_syrup(esspresso_decaffein,none).
 has_syrup(caramel_mac_normalMilk,caramel).
 has_syrup(caramel_mac_lowFatMilk,caramel).
 has_syrup(caramel_mac_nonFatMilk,caramel).
